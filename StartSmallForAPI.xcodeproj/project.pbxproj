@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F4A871324FF9208003FF513 /* GitHubAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A871224FF9208003FF513 /* GitHubAPITests.swift */; };
 		4F7E4FEB24FF2D60004B86AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E4FEA24FF2D60004B86AF /* AppDelegate.swift */; };
 		4F7E4FED24FF2D60004B86AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E4FEC24FF2D60004B86AF /* SceneDelegate.swift */; };
 		4F7E4FEF24FF2D60004B86AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E4FEE24FF2D60004B86AF /* ViewController.swift */; };
@@ -14,6 +15,10 @@
 		4F7E4FF424FF2D67004B86AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7E4FF324FF2D67004B86AF /* Assets.xcassets */; };
 		4F7E4FF724FF2D67004B86AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F7E4FF524FF2D67004B86AF /* LaunchScreen.storyboard */; };
 		4F7E500224FF2D67004B86AF /* StartSmallForAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E500124FF2D67004B86AF /* StartSmallForAPITests.swift */; };
+		4F7E500F24FF2E02004B86AF /* WebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E500E24FF2E02004B86AF /* WebAPI.swift */; };
+		4F7E501024FF2E02004B86AF /* WebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E500E24FF2E02004B86AF /* WebAPI.swift */; };
+		4F7E501224FF37C5004B86AF /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E501124FF37C5004B86AF /* GitHubAPI.swift */; };
+		4F7E501324FF37C5004B86AF /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E501124FF37C5004B86AF /* GitHubAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F4A871224FF9208003FF513 /* GitHubAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPITests.swift; sourceTree = "<group>"; };
 		4F7E4FE724FF2D60004B86AF /* StartSmallForAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartSmallForAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7E4FEA24FF2D60004B86AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F7E4FEC24FF2D60004B86AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +44,8 @@
 		4F7E4FFD24FF2D67004B86AF /* StartSmallForAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StartSmallForAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7E500124FF2D67004B86AF /* StartSmallForAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSmallForAPITests.swift; sourceTree = "<group>"; };
 		4F7E500324FF2D67004B86AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F7E500E24FF2E02004B86AF /* WebAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPI.swift; sourceTree = "<group>"; };
+		4F7E501124FF37C5004B86AF /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,8 @@
 				4F7E4FF324FF2D67004B86AF /* Assets.xcassets */,
 				4F7E4FF524FF2D67004B86AF /* LaunchScreen.storyboard */,
 				4F7E4FF824FF2D67004B86AF /* Info.plist */,
+				4F7E500E24FF2E02004B86AF /* WebAPI.swift */,
+				4F7E501124FF37C5004B86AF /* GitHubAPI.swift */,
 			);
 			path = StartSmallForAPI;
 			sourceTree = "<group>";
@@ -94,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				4F7E500124FF2D67004B86AF /* StartSmallForAPITests.swift */,
+				4F4A871224FF9208003FF513 /* GitHubAPITests.swift */,
 				4F7E500324FF2D67004B86AF /* Info.plist */,
 			);
 			path = StartSmallForAPITests;
@@ -203,6 +214,8 @@
 				4F7E4FEF24FF2D60004B86AF /* ViewController.swift in Sources */,
 				4F7E4FEB24FF2D60004B86AF /* AppDelegate.swift in Sources */,
 				4F7E4FED24FF2D60004B86AF /* SceneDelegate.swift in Sources */,
+				4F7E501224FF37C5004B86AF /* GitHubAPI.swift in Sources */,
+				4F7E500F24FF2E02004B86AF /* WebAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F7E500224FF2D67004B86AF /* StartSmallForAPITests.swift in Sources */,
+				4F7E501324FF37C5004B86AF /* GitHubAPI.swift in Sources */,
+				4F7E501024FF2E02004B86AF /* WebAPI.swift in Sources */,
+				4F4A871324FF9208003FF513 /* GitHubAPITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
